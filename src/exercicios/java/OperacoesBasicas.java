@@ -10,12 +10,12 @@ public class OperacoesBasicas {
 		System.out.print("Digite o primeiro número: ");
 		int firstNumber = sc.nextInt();
 		
-		System.out.println("--------------------------------------------------");
+		separation();
 		
 		System.out.print("Digite o segundo número: ");
 		int secondNumber = sc.nextInt();
 		
-		System.out.println("--------------------------------------------------");
+		separation();
 		
 		int sum = firstNumber + secondNumber;
 		
@@ -31,6 +31,10 @@ public class OperacoesBasicas {
 		System.out.println("A divisão dos números é : " + division);
 		
 		sc.close();
+	}
+	
+	public static void separation(){
+		System.out.println("--------------------------------------------------------");
 	}
 
 }
